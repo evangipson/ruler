@@ -12,8 +12,10 @@ Larger-scale battles will happen when players have more honor, because they will
 ## Game Mechanics
 
 ### High-level Rules
-- Each battle is for a town/kingdom/property and takes place between at least 2 players
-- The winner of the battle recieves the property
+- Each battle is for a Property and takes place between at least 2 players
+- The winner of the battle takes a card from the other player
+    - If the attacker wins, they will take the Property
+    - If the defender wins, they will take a non-Lord, non-Property card
 - Players with lots of properties have higher Honor
 - Higher Honor (more properties) lets you have a bigger deck
 - If a player with lower honor beats a player with higher honor, they recieve more rewards
