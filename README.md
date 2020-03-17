@@ -172,10 +172,10 @@ Every Resource card (minus Gold cards) will have a Range, Power, or Defense rati
             <td colspan=3>Resource Card Type</td>
         </tr>
         <tr>
-            <td colspan=3 style="height:70px">Resource Card Description</td>
+            <td colspan=3 height=70 style="height:70px">Resource Card Description</td>
         </tr>
         <tr>
-            <td colspan=3 style="text-align: center;height:200px">Resource Card Art</td>
+            <td colspan=3 height=200 style="text-align: center;height:200px">Resource Card Art</td>
         </tr>
         <tr>
             <td>Range Rating</td>
@@ -206,10 +206,10 @@ Every Regiment card will have a Range, Power, and Defense rating. These are take
             <td colspan=3>Regiment Card Type</td>
         </tr>
         <tr>
-            <td colspan=3 style="height:70px">Regiment Card Description</td>
+            <td colspan=3 height=70 style="height:70px">Regiment Card Description</td>
         </tr>
         <tr>
-            <td colspan=3 style="text-align: center;height:200px">Regiment Card Art</td>
+            <td colspan=3 height=200 style="text-align: center;height:200px">Regiment Card Art</td>
         </tr>
         <tr>
             <td>Range Rating</td>
@@ -228,10 +228,10 @@ Every Lord card is created by the player before their first battle. They will be
             <td colspan=3><b>Lord Card Title</b></td>
         </tr>
         <tr>
-            <td colspan=3 style="text-align: center;height:200px">Lord Card Art</td>
+            <td colspan=3 height=200 style="text-align: center;height:200px">Lord Card Art</td>
         </tr>
         <tr>
-            <td colspan=3 style="height:70px">Lord Card Description</td>
+            <td colspan=3 height=70 style="height:70px">Lord Card Description</td>
         </tr>
         <tr>
             <td>Range Rating</td>
@@ -250,10 +250,10 @@ Every Property card will have a Size, Wealth, and Tax rating. The size rating wi
             <td colspan=3><b>Property Card Title</b></td>
         </tr>
         <tr>
-            <td colspan=3 style="text-align: center;height:200px">Property Card Art</td>
+            <td colspan=3 height=200 style="text-align: center;height:200px">Property Card Art</td>
         </tr>
         <tr>
-            <td colspan=3 style="height:70px">Property Card Description</td>
+            <td colspan=3 height=70 style="height:70px">Property Card Description</td>
         </tr>
         <tr>
             <td>Size Rating</td>
