@@ -11,6 +11,14 @@ Larger-scale battles will happen when players have more honor, because they will
 
 ## Game Mechanics
 
+## High-level Rules
+- Each battle is for a town/kingdom/property and takes place between at least 2 players
+- The winner of the battle recieves the property
+- Players with lots of properties have higher Honor
+- Higher Honor (more properties) lets you have a bigger deck
+- If a player with lower honor beats a player with higher honor, they recieve more rewards
+- Every player starts with 5 cards drawn from their deck
+
 ### Before Starting Your First Game
 1. The player will create their Lord
     - This will create the player's first Lord card
@@ -127,14 +135,6 @@ During the duration of the game, cards will move in the grid. A battle will ensu
         </tr>
     </tbody>
 </table>
-
-## Rules
-- Each battle is for a town/kingdom/property and takes place between at least 2 players
-- The winner of the battle recieves the property
-- Players with lots of properties have higher Honor
-- Higher Honor (more properties) lets you have a bigger deck
-- If a player with lower honor beats a player with higher honor, they recieve more rewards
-- Every player starts with 5 cards drawn from their deck
 
 ## Types of Cards
 You can upgrade each type of card with a certain amount of gold.
