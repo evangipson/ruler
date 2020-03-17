@@ -262,3 +262,25 @@ Every Property card will have a Size, Wealth, and Tax rating. The size rating wi
         </tr>
     </tbody>
 </table>
+
+### Policy Cards
+Every Policy card will have a Impact and Denial rating. These ratings, with the description, will determine how effective the Policy cards are at what they do.
+#### Example Policy Card
+<table>
+    <tbody>
+        <tr>
+            <td colspan=3><b>Policy Card Title</b></td>
+        </tr>
+        <tr>
+            <td colspan=3 height=200 style="text-align: center;height:200px">Policy Card Art</td>
+        </tr>
+        <tr>
+            <td colspan=3 height=70 style="height:70px">Policy Card Description</td>
+        </tr>
+        <tr>
+            <td>Impact Rating</td>
+            <td></td>
+            <td>Denial Rating</td>
+        </tr>
+    </tbody>
+</table>
