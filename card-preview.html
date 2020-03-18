@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruler Card Preview</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 30px;
+        }
+        .ruler-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: left;
+            font-size: 12px;
+            background: #232323;
+            color: #232323;
+            border-radius: 10px;
+            width: 320px;
+            padding: 12px;
+            line-height: 30px;
+            box-sizing:border-box;
+        }
+        .ruler-card article {
+            padding-left: 10px;
+        }
+        .ruler-card-title {
+            font-weight: bold;
+            font-size: 18px;
+            height: 30px;
+            background-color: #e9e9e9;
+        }
+        .ruler-card-type {
+            font-weight: bold;
+            font-style: italic;
+            height: 30px;
+            background-color: #cdcdcd;
+        }
+        .ruler-card-desc {
+            height: 70px;
+            background-color: #e9e9e9;
+        }
+        .ruler-card-art {
+            height: 200px;
+            text-decoration: italic;
+            background-color: #fdfdfd;
+        }
+        .ruler-card-ratings {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            font-size: 18px;
+            height: 40px;
+            line-height: 40px;
+            background-color: #e9e9e9;
+            padding-left: 0; /* remove pad left for actual even spacing */
+        }
+        .ruler-card-ratings span {
+            width: 33.33%;
+            text-align: center;
+        }
+        .ruler-card-second-rating {
+            font-size: 22px;
+            font-weight: bold;
+            background-color: #cdcdcd;
+        }
+    </style>
+    <script src="./card-data.js" type="module"></script>
+    <script src="./card-preview.js" type="module"></script>
+</head>
+<body>
+    <h1>Ruler Card Preview</h1>
+    <a href="#" style="margin-bottom: 1rem;" id="CreateRulerButton">Click to generate a Ruler card</a>
+    <section class="ruler-card" id="RulerCard">
+        <article id="RulerCardTitle" class="ruler-card-title"></article>
+        <article id="RulerCardType" class="ruler-card-type"></article>
+        <article id="RulerCardDescription" class="ruler-card-desc"></article>
+        <article id="RulerCardArt" class="ruler-card-art"></article>
+        <article id="RulerCardRatings" class="ruler-card-ratings">
+            <span id="RulerCardFirstRating"></span>
+            <span class="ruler-card-second-rating" id="RulerCardSecondRating"></span>
+            <span id="RulerCardThirdRating"></span>
+        </article>
+    </section>
+</body>
+</html>
