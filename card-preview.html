@@ -47,6 +47,12 @@
             height: 200px;
             text-decoration: italic;
             background-color: #fdfdfd;
+            position: relative;
+        }
+        .ruler-card-art-canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
         }
         .ruler-card-ratings {
             display: flex;
@@ -78,7 +84,11 @@
         <article id="RulerCardTitle" class="ruler-card-title"></article>
         <article id="RulerCardType" class="ruler-card-type"></article>
         <article id="RulerCardDescription" class="ruler-card-desc"></article>
-        <article id="RulerCardArt" class="ruler-card-art"></article>
+        <article id="RulerCardArt" class="ruler-card-art">
+            <canvas class="ruler-card-art-canvas" id="RulerCardArtCanvasBackground" width="320" height="200"></canvas>
+            <canvas class="ruler-card-art-canvas" id="RulerCardArtCanvasFace" width="320" height="200"></canvas>
+            <canvas class="ruler-card-art-canvas" id="RulerCardArtCanvasFeatures" width="320" height="200"></canvas>
+        </article>
         <article id="RulerCardRatings" class="ruler-card-ratings">
             <span id="RulerCardFirstRating"></span>
             <span class="ruler-card-second-rating" id="RulerCardSecondRating"></span>

@@ -1,4 +1,4 @@
-function randomItem(arr) {
+export function randomItem(arr) {
     return arr[Math.floor(Math.random()*arr.length)];
 };
 function capitalize(s) {
@@ -66,6 +66,23 @@ const lordNames = [
     "gilebert",
     "lanslet",
 ];
+const regimentTitles = [
+    "serf",
+    "king",
+    "lord",
+    "duke",
+    "consort",
+    "landgrave",
+    "knight",
+    "baronet",
+    "emporer",
+    "reeve",
+    "admiral",
+    "alderman",
+    "yeoman",
+    "viscount",
+    "chancellor",
+];
 
 export const GenerateLordTitle = function() {
     if(Math.random() > 0.5) {
@@ -74,5 +91,9 @@ export const GenerateLordTitle = function() {
     if(Math.random() > 0.5) {
         return `${capitalize(randomItem(lordNames))}, the ${capitalize(randomItem(lordDescriptors))} ${capitalize(randomItem(lordTitles))}`;
     }
+    return `${capitalize(randomItem(lordTitles))} ${capitalize(randomItem(lordNames))}`;
+}
+
+export const GenerateRegimentTitle = function() {
     return `${capitalize(randomItem(lordTitles))} ${capitalize(randomItem(lordNames))}`;
 }
