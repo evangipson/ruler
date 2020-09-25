@@ -1,7 +1,7 @@
 # Ruler
 
 ## Abstract
-Ruler is a sandbox war political strategy card game capable of forming deep stories, where two players battle for control of a property, and the winner takes the property. The point of Ruler is to amass as much gold and property as you can. Players can lose cards, but will be easily able to get back to square one, either by creating a new character, or exchanging their honor for "relief" (the ability to re-draft your first army and create a new fief).
+Ruler is a sandbox war political strategy card game capable of forming deep stories, where two players battle for control of a property, and the winner takes the property. The point of Ruler is to amass as much property as you can. Players can lose cards, but will be easily able to get back to square one, either by creating a new character, or exchanging their honor for "relief" (the ability to re-draft your first army and create a new fief).
 
 There is a Battlefield, the size of which is determined by the Property card that is being defended. Larger properties have larger battlefields.
 
@@ -28,8 +28,6 @@ Larger-scale battles will happen when players have more honor, because they will
     - This will create the player's Regiment cards
 1. The player will assign their personality
     - This will create the player's Policy cards
-1. The player will be given a Gold card
-    - This will allow the player to accumulate gold in between battles
 1. The player will create their first fief
     - This will create the player's first (low-level) Property card
 1. The player is now ready for battle
@@ -66,11 +64,6 @@ Larger-scale battles will happen when players have more honor, because they will
     - If the attacker has lower honor than the defender and they win, they will take the Property card as well as any non-Lord, non-Property card.
         - The number of non-Lord, non-Property cards is determined by the formula:
     ``CardsTaken = DefenderHonor - AttackerHonor - 1``
-1. Both players will then have a chance to upgrade their cards
-    - This can happen anytime after the battle, it's not technically a phase of the game, the store is a seperate phase after the battle ends
-    - The store will exchange Gold for upgrades to existing cards or new cards
-        - Upgrades to existing cards will improve Range, Power, or Defense ratings and allow for new art and title
-    - The store will allow players to exchange unwanted cards for Gold
 
 ### Battlefield
 The battlefield is a variable-sized grid which players will use to position their army, Lord, and equipment (on top of Lord/Regiment cards) before the battle for the property ensues. The size of the battlefield is determined by the Property Card in question.
@@ -139,14 +132,9 @@ During the duration of the game, cards will move in the grid. A battle will ensu
 </table>
 
 ## Types of Cards
-You can upgrade each type of card with a certain amount of gold.
 
 ### Resource Cards
-Every Resource card (minus Gold cards) will have a Range, Power, or Defense rating. These are taken into account with the Regiment/Lord card's ratings during the battle for movement and combat. Resource cards are played "on" Regiment/Lord cards. Each Regiment/Lord card can only have 2 equipment attached at any given time.
-- Gold
-    - Not placed on the battlefield
-    - All gold is accumulated on one card
-    - Every player starts with a "Gold" card
+Every Resource card will have a Range, Power, or Defense rating. These are taken into account with the Regiment/Lord card's ratings during the battle for movement and combat. Resource cards are played "on" Regiment/Lord cards. Each Regiment/Lord card can only have 2 equipment attached at any given time.
 - Trade Goods
     - Not placed on the battlefield
     - Wine/Beer
@@ -242,7 +230,7 @@ Every Lord card is created by the player before their first battle. They will be
 </table>
 
 ### Property Cards
-Every Property card will have a Size, Wealth, and Tax rating. The size rating will determine the size of the battlefield. The Wealth and Tax rating will determine how much Gold the player will recieve from the Property.
+Every Property card will have a Size rating. The size rating will determine the size of the battlefield.
 #### Example Property Card
 <table>
     <tbody>
@@ -257,8 +245,6 @@ Every Property card will have a Size, Wealth, and Tax rating. The size rating wi
         </tr>
         <tr>
             <td>Size Rating</td>
-            <td>Wealth Rating</td>
-            <td>Tax Rating</td>
         </tr>
     </tbody>
 </table>
